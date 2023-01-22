@@ -1,0 +1,5 @@
+I:\E_Shopper\E_Shopper_Core\bin\Release\E_Shopper_Core.dll
+I:\E_Shopper\E_Shopper_Core\bin\Release\E_Shopper_Core.pdb
+I:\E_Shopper\E_Shopper_Core\obj\Release\E_Shopper_Core.csproj.CoreCompileInputs.cache
+I:\E_Shopper\E_Shopper_Core\obj\Release\E_Shopper_Core.dll
+I:\E_Shopper\E_Shopper_Core\obj\Release\E_Shopper_Core.pdb

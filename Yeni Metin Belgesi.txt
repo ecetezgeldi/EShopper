@@ -1,0 +1,46 @@
+   for (int a = 0; a < 5; a++)
+            {
+                Category cat = new Category()
+                {
+                    Title = "T-Shirt",
+                    Description = "Kısa Kollu",
+                    ModifiedUsername = "altanemre",
+                    CreatedOn = DateTime.Now,
+                    ModifiedOn = DateTime.Now
+                };
+
+                context.Categories.Add(cat);
+
+                for (int i = 0; i < 5; i++)
+                {
+                    Brand brand = new Brand()
+                    {
+                        Name = "LcWaikiki",
+                        ModifiedUsername = "altanemre",
+                        CreatedOn = DateTime.Now,
+                        ModifiedOn = DateTime.Now
+                    };
+                    cat.Brands.Add(brand);
+
+                    for (int j = 0; j < 10; j++)
+                    {
+                        Product product = new Product()
+                        {
+                            Title = "Easy Polo Edition",
+                            Price = 40,
+                            InStock = true,
+                            Quantity = 20,
+                            Image = "product1.jpg",
+                            IsDraft = true,
+                            IsHome = false,
+                            Type = Types.Erkek,
+                            CreatedOn = DateTime.Now,
+                            ModifiedOn = DateTime.Now,
+                            ModifiedUsername = "altanemre"
+                        };
+                        brand.Products.Add(product);
+                    }
+
+                }
+                context.SaveChanges();
+            }
